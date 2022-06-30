@@ -1,6 +1,6 @@
 #include <stdio.h>
-/**main -entry point*
- * Return: O after printing the function 
+/*main -entry point
+  Return: O after printing the function 
  */
 int main (void)
 {
