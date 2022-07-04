@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 * main - entry point
+* Description:Capital and small letter
 * return: always return 0
 */
 int main(void)
