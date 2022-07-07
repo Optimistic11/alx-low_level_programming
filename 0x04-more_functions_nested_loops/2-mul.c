@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
 * mul -> multiplying two numbers
 * @a: integer parameter1
