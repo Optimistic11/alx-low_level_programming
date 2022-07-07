@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _isupper -> This is a function use to check upper case alphabet
+* _isupper -> this is a function to check upper case alphabet
 * @c : is an integer parameter
 * Return : success
 */
