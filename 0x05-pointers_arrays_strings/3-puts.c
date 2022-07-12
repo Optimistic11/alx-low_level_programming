@@ -3,7 +3,7 @@
 * _puts -> a function that prints a string, followed by a new line
 * @str: a parameter to _puts
 */
-void _puts(char *str);
+void _puts(char *str)
 {
 for (; *str != '\0'; str++)
 {
