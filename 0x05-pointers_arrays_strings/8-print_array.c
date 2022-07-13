@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_array -> a funtion to print array
 * @a: array of integers
@@ -15,5 +16,5 @@ if (j != (n - 1))
 printf(", ");
 }
 }
-printf("\n");
+printf('\n');
 }
