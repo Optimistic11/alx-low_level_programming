@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
 * reverse_array -> a function that reverse an array
 * @a: array
