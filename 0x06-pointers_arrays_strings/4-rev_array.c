@@ -2,9 +2,8 @@
 #include <string.h>
 /**
 * reverse_array -> a function that reverse an array
-* @a: param1
-* @n: param2
-* Return: integer
+* @a: array
+* @n: an array
 */
 void reverse_array(int *a, int n)
 {
