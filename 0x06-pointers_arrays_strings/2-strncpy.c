@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
-* _stncpy -> a function that copies a string
+* _strncpy -> a function that copies a string
 * @dest: param1
 * @src: param2
 * @n: param3
@@ -11,4 +11,4 @@ char *_strncpy(char *dest, char *src, int n)
 {
 strncpy(dest, src, n);
 return (dest);
-}
+i}
