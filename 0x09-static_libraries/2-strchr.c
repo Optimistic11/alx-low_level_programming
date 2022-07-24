@@ -4,7 +4,7 @@
 * _strchr -> string character
 * @s: string given
 * @c: another char
-* @c: another char
+* Return: a string
 */
 char *_strchr(char *s, char c)
 {
