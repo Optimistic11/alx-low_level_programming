@@ -20,7 +20,7 @@ if (accept[a] == s[b])
 t++;
 }
 a++;
-} 
+}
 b++;
 }
 return (t);
