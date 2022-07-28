@@ -24,19 +24,11 @@ if (new_size == 0 && ptr != NULL)
 free(ptr);
 return (NULL);
 }
-if (new_size ==  old_size)
+if (new_size == old_size)
 return (ptr);
 p = malloc(new_size);
 if (p != NULL)
 {
-px = (char *)ptr;
-for (i = 0; i < old_size; i++)
-p[i] = px[i];
-free(ptr);
-return (p);
-}
-return (NULL);
-}
 px = (char *)ptr;
 for (i = 0; i < old_size; i++)
 p[i] = px[i];
