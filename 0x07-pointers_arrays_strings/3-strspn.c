@@ -8,19 +8,19 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int a = 0, b, t = 0;
-while (accept[a])
+unsigned int a = 0;
+char *t = accept;
+while (*s++)
 {
-b = 0;
-while (s[b] != 32)
+while (*accept++)
+if (*(s - 1) == *(accept - 1))
 {
-if (accept[a] == s[b])
-{
-t++;
+c++;
+break;
 }
-a++;
-} 
-b++;
+if (!(*--accept))
+break;
+accept = t;
 }
-return (t);
+return (a);
 }
