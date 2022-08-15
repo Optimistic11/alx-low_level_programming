@@ -1,4 +1,4 @@
-
+#include "main.h"
 /**
 * _strspn - search a string for a set of bytes
 * @s: source string
@@ -8,7 +8,7 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int a = 0;
+unsigned int c = 0;
 char *t = accept;
 while (*s++)
 {
@@ -22,5 +22,5 @@ if (!(*--accept))
 break;
 accept = t;
 }
-return (a);
+return (c);
 }
