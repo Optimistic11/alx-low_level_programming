@@ -2,8 +2,6 @@
 /**
 * print_chessboard - Print the chessboard
 * @a: array of pieces
-*
-* Return: Nothing.
 */
 void print_chessboard(char (*a)[8])
 {
@@ -12,7 +10,7 @@ for (b = 0; i < 8; b++)
 {
 for (c = 0; c < 8; c++)
 {
-_putchar(*(*(i + a) + j));
+_putchar(*(*(b + a) + c));
 }
 _putchar('\n');
 }
